@@ -23,3 +23,23 @@ The purpose of this website is to showcase personal information, skills, and bas
 ---
 
 ## 📂 Project Structure
+portfolio/  
+│── index.html  
+│── style.css  
+│── script.js  
+│── README.md  
+
+---
+
+## 🎯 Objective
+The objective of this project is to practice frontend development concepts and build a responsive personal portfolio website.
+
+---
+
+## 🔧 Future Improvements
+- Add Contact Section
+- Add Form Validation
+- Add Advanced Animations
+- Enhance UI/UX Design
+
+---

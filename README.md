@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 This project is a Personal Portfolio Website developed using HTML and CSS.  
-The purpose of this website is to showcase personal information, skills, and basic profile details in a clean and structured layout.
+The website showcases personal information, technical skills, projects, and a contact section in a clean and responsive layout.
 
 ---
 
@@ -16,13 +16,17 @@ The purpose of this website is to showcase personal information, skills, and bas
 - Responsive navigation bar
 - Hero / Introduction section
 - About Me section
-- Skills section with grid layout
+- Skills section using CSS Grid
+- Projects section with project cards
+- Contact section with form layout
+- Hover effects and visual styling
 - Clean and minimal UI design
 - Responsive layout for different screen sizes
 
 ---
 
 ## 📂 Project Structure
+
 portfolio/  
 │── index.html  
 │── style.css  
@@ -32,14 +36,15 @@ portfolio/
 ---
 
 ## 🎯 Objective
-The objective of this project is to practice frontend development concepts and build a responsive personal portfolio website.
+The objective of this project is to build a structured and responsive personal portfolio website using fundamental frontend technologies.
 
 ---
 
 ## 🔧 Future Improvements
-- Add Contact Section
 - Add Form Validation
-- Add Advanced Animations
-- Enhance UI/UX Design
+- Add JavaScript Interactivity
+- Add Animations & UI Enhancements
 
 ---
+
+

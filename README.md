@@ -1,8 +1,8 @@
-# Personal-Portfolio-Website
+# Personal Portfolio Website
 
 ## 📌 Project Overview
 This project is a Personal Portfolio Website developed using HTML and CSS.  
-The website showcases personal information, technical skills, projects, and a contact section in a clean and responsive layout.
+The website presents personal information, skills, projects, and a contact section with a clean, structured, and responsive design.
 
 ---
 
@@ -20,8 +20,9 @@ The website showcases personal information, technical skills, projects, and a co
 - Projects section with project cards
 - Contact section with form layout
 - Hover effects and visual styling
+- Responsive design using CSS Media Queries
 - Clean and minimal UI design
-- Responsive layout for different screen sizes
+- Optimized layout for multiple screen sizes
 
 ---
 
@@ -36,15 +37,16 @@ portfolio/
 ---
 
 ## 🎯 Objective
-The objective of this project is to build a structured and responsive personal portfolio website using fundamental frontend technologies.
+The objective of this project is to build a responsive personal portfolio website using fundamental frontend technologies.
 
 ---
 
 ## 🔧 Future Improvements
 - Add Form Validation
-- Add JavaScript Interactivity
-- Add Animations & UI Enhancements
+- Add Advanced JavaScript Interactivity
+- UI Enhancements & Animations
 
 ---
+
 
 

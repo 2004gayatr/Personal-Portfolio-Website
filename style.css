@@ -147,3 +147,16 @@ button[type="submit"]:hover {
     opacity: 0.8;
 }
 
+/* Responsive */
+@media (max-width: 768px) {
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+}
+
+

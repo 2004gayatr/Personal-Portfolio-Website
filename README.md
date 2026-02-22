@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 This project is a Personal Portfolio Website developed using HTML, CSS, and JavaScript.  
-The website showcases personal information, technical skills, projects, and a contact form with a clean, structured, and responsive design.
+The website is designed to present personal information, technical skills, projects, and a contact form in a clean, structured, and responsive layout.
 
 ---
 
@@ -14,18 +14,18 @@ The website showcases personal information, technical skills, projects, and a co
 ---
 
 ## ✨ Features
-- Responsive navigation bar
-- Hero / Introduction section
-- About Me section
-- Skills section using CSS Grid
-- Projects section with project cards
-- Contact section with form layout
-- Client-side form validation using JavaScript
-- Smooth scrolling interaction
-- Hover effects and visual styling
-- Responsive design using CSS Media Queries
-- Clean and minimal UI design
-- Optimized layout for multiple screen sizes
+- Responsive Navigation Bar
+- Hero / Introduction Section
+- About Me Section
+- Skills Section with Grid Layout
+- Projects Section with Interactive Cards
+- Contact Form Section
+- Client-side Form Validation using JavaScript
+- Smooth Scrolling Navigation
+- Active Navbar Highlight on Scroll
+- Hover Effects and UI Enhancements
+- Responsive Design using CSS Media Queries
+- Clean and Minimal User Interface
 
 ---
 
@@ -40,14 +40,15 @@ portfolio/
 ---
 
 ## 🎯 Objective
-The objective of this project is to build a responsive and interactive personal portfolio website using fundamental frontend technologies.
+The objective of this project is to build a responsive and interactive personal portfolio website using core frontend technologies and fundamental web development concepts.
 
 ---
 
 ## 🔧 Future Improvements
-- Add Advanced Animations
-- Improve UI/UX Design
-- Add More Interactive Features
+- Add Advanced Animations and Transitions
+- Improve UI / UX Design
+- Add Backend Integration for Contact Form
+- Add More Projects and Dynamic Content
 
 ---
 

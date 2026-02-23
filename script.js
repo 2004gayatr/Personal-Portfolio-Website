@@ -1,4 +1,4 @@
-// Smooth scroll
+// Smooth scroll button
 function scrollToProjects() {
     document.getElementById("projects").scrollIntoView({
         behavior: "smooth"
@@ -10,30 +10,45 @@ function showProjectMessage(projectName) {
     alert(projectName + " details can be added here.");
 }
 
-// Form Validation
-document.getElementById("contactForm").addEventListener("submit", function(e) {
-    e.preventDefault();
+// Safe Form Validation
+const form = document.getElementById("contactForm");
 
-    let name = document.getElementById("name").value.trim();
-    let email = document.getElementById("email").value.trim();
-    let message = document.getElementById("message").value.trim();
-    let formMessage = document.getElementById("formMessage");
+if (form) {
+    form.addEventListener("submit", function(e) {
+        e.preventDefault();
 
-    if (name === "" || email === "" || message === "") {
-        formMessage.style.color = "red";
-        formMessage.innerText = "Please fill all fields!";
-        return;
-    }
+        let name = document.getElementById("name").value.trim();
+        let email = document.getElementById("email").value.trim();
+        let message = document.getElementById("message").value.trim();
+        let formMessage = document.getElementById("formMessage");
 
-    if (!email.includes("@")) {
-        formMessage.style.color = "red";
-        formMessage.innerText = "Enter a valid email!";
-        return;
-    }
+        if (name === "" || email === "" || message === "") {
+            formMessage.style.color = "red";
+            formMessage.innerText = "Please fill all fields!";
+            return;
+        }
 
-    formMessage.style.color = "green";
-    formMessage.innerText = "Message sent successfully!";
-    document.getElementById("contactForm").reset();
+        if (!email.includes("@")) {
+            formMessage.style.color = "red";
+            formMessage.innerText = "Enter a valid email!";
+            return;
+        }
+
+        formMessage.style.color = "green";
+        formMessage.innerText = "Message sent successfully!";
+        form.reset();
+    });
+}
+
+// Smooth Navbar Scroll
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth' });
+        }
+    });
 });
 
 // Active Navbar Highlight
